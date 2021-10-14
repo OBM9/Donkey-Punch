@@ -1,12 +1,9 @@
-.page-header {
-  background: #e1e2e3;
-  padding: 20px;
+header {
+  font: green;
+  font-size: 60px;
+  font-style: italic;
 }
-.content-area {
-  background: #a3bef0;
-  height: 1500px;
-  font-size: 5rem;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
+
