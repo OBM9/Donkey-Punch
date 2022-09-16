@@ -2,6 +2,6 @@ body {
   background-color:aqua;
   display: inline;
 }
-id="title" {
+#title {
   color: red;
 }
