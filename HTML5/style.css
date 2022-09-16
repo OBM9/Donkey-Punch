@@ -1,5 +1,8 @@
 body {
   background-color:bisque;
-
+  display:inline;
 }
  
+title {
+  color: red;
+}
