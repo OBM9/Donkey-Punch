@@ -9,7 +9,8 @@
 </head>
 <body>
   <h1 id="title">World of Warcraft Player Survey</h1>
-  <p id="description">Please take a moment to fill out our Gaming survey.</p> 
+  <p id="description">Please take a moment to fill out our Gaming survey.</p>
+  <fieldset>
   <form id="survey-form"></form>
     <label for="name" id="name-label">Please enter your name
     <input id="text" id="name" required placeholder="Enter your name"> 
@@ -18,10 +19,11 @@
     <input id="email" id="email" required placeholder="Enter your email">
     
     <label for="number" id="number-label">Please enter your number
-    <input id="number" id="number" min="0" max="100" required placeholder="Enter your number">     
+    <input id="number" id="number" min="0" max="100" required placeholder="Enter your number"></label>   
       <option value="#"Are you for Alliance?></option>
       <option value="#"Are you for Hordes?></option>
       <label for="player">Choose your team:</label>
+    </fieldset>
 
     <select id="player" name="player">
       <option value="alliance">Alliance</option>
