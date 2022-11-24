@@ -11,5 +11,8 @@ body {
   a:visited {
     color: red;
   }
+  a:hover, a:active {
+    color: #eee;
+  }
 
 
