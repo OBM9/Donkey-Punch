@@ -23,5 +23,12 @@ body {
   caption {
     color:palevioletred;
   }
+  time {
+    color:cyan;
+  }
+  activity {
+    color:greenyellow;
+  }
+
 
 
