@@ -20,5 +20,8 @@ body {
     border-collapse: collapse;
     padding: 0.5rem;
   }
+  caption {
+    color:aquamarine;
+  }
 
 
