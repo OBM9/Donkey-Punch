@@ -26,9 +26,13 @@ body {
   time {
     color:cyan;
   }
-  activity {
+  Activity {
     color:greenyellow;
   }
+  header {
+    color:darksalmon;
+  }
+    
 
 
 
