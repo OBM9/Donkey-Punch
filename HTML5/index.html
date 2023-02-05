@@ -148,6 +148,8 @@
 
     <form action="https://httpbin.org/get" method="get">
       <p>
+        <fieldset >
+          <legend>Personal Info</legend>
       <label for="firstName">First name:</label>
           <input type="text" name="firstName" id="firstName" placeholder="John" autocomplete="on" required autofocus>
       </p>
@@ -172,23 +174,20 @@
         <label for="coffee">Favorite coffee:</label>
         <select name="coffee" id="coffee">
           <optgroup label="Coffees">
-          <option value="regular coffee">Regular coffee</option>
-          <option value="iced coffee">Iced coffee</option>
+            <option value="regular coffee">Regular coffee</option>
+            <option value="iced coffee">Iced coffee</option>
           </optgroup>
-          <optgroup></optgroup>
-          <option value="latte">Latte</option>
-          <option value="cappuccino">Cappuccino</option>
-          <option value="cortado">Cortado</option>
-          <option value="americano">Americano</option>
-          <option value="other">Other</option>
-          </optgroup>
-            
-
+            <optgroup label="expresso drinks">Expresso Drinks</optgroup>
+            <option value="latte">Latte</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="cortado">Cortado</option>
+            <option value="americano">Americano</option>       optgroup>                                                                              <option value="other">Other</option>
         </select>
-
       </p>
+    </fieldset>
+    <br>
+    <fieldset>What is your favorite food?</fieldset>
     </form>
-
     </main>
     <hr>
     <footer>
